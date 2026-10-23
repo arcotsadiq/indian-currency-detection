@@ -1,6 +1,81 @@
 # Handheld Currency Detection Device for the Visually Impaired
 
+## Overview# Indian Currency Detection for Visually Impaired People
+
 ## Overview
+
+This repository contains a fork of the original **Handheld Currency Detection Device for the Visually Impaired** project, developed by Achal Nanjundamurthy and team at Jyothy Institute of Technology during 2024–2025.
+
+The original project uses deep learning to recognize Indian currency notes and announce their denominations aloud, helping visually impaired people identify money more independently.
+
+**Original repository:** https://github.com/achalnm/Currency_Recognition_RPi
+
+**Published research paper:** [Currency Detection for the Visually Impaired Using Deep Learning — IJRASET, Volume 13, Issue V, May 2025](https://www.ijraset.com/best-journal/currency-detection-for-the-visually-impaired-using-deep-learning)
+
+## Original Project Features
+
+- Indian currency denomination recognition using MobileNetV2.
+- TensorFlow Lite inference on a Raspberry Pi.
+- Spoken denomination announcements using offline text-to-speech.
+- Confidence-threshold handling for uncertain predictions.
+- Camera-based currency image capture.
+
+## Technologies
+
+- Python
+- TensorFlow and Keras
+- TensorFlow Lite
+- MobileNetV2
+- OpenCV
+- Pillow
+- pyttsx3
+- Raspberry Pi
+
+## Original Model Details
+
+| Property | Details |
+|---|---|
+| Model | MobileNetV2 |
+| Input image size | 224 × 224 pixels |
+| Output classes | 10, 20, 50, 100, 200, 500 rupees and other objects |
+| Deployment format | TensorFlow Lite |
+| Original target device | Raspberry Pi |
+
+These details describe the original project and have not been independently revalidated in this fork.
+
+## Planned Enhancements
+
+The intended direction for this repository is to explore an accessible online application with:
+
+- Manual image upload for currency recognition.
+- Live camera-based recognition.
+- English voice announcements.
+- Clear feedback when a note cannot be identified.
+
+These enhancements are planned and should not be considered implemented until they have been developed and tested.
+
+## Original Authors and Attribution
+
+The original project was developed by:
+
+- Achal Nanjundamurthy
+- Aruna A Shenoy
+- Bhushan M V
+- Pujitha D R
+
+Please refer to the original repository and published paper for the original authors' contributions, project methodology, and publication details.
+
+## Project Status
+
+This repository currently contains the original project's code and materials through a GitHub fork. Any new functionality will be documented as it is implemented and tested.
+
+## Disclaimer
+
+This project is intended for educational and accessibility purposes. AI predictions may be incorrect. Do not rely on the system as the sole method of verifying a banknote or determining its value in critical transactions.
+
+## License
+
+Please check the original repository for its licensing terms before redistributing or modifying its contents. Any additional license for this fork should be established consistently with the original license and applicable permissions.
 
 This was our final year B.E. project at Jyothy Institute of Technology (2024-2025). We wanted to build something that could genuinely help people. The device identifies Indian currency notes and reads the denomination aloud, so visually impaired individuals can use it independently without a smartphone or internet connection.
 
